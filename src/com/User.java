@@ -4,7 +4,7 @@ class User {
 
 	private int userid;
 	private String username;
-	private long mobilename;
+	
 	public int getUserid() {
 		return userid;
 	}
@@ -17,10 +17,5 @@ class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public long getMobilename() {
-		return mobilename;
-	}
-	public void setMobilename(long mobilename) {
-		this.mobilename = mobilename;
-	}
+
 }
